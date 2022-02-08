@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swschmidt\\Snyk Workspace\\dotNet-goof-github\\dotNet-goof.csproj": {}
+    "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/dotNet-goof.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swschmidt\\Snyk Workspace\\dotNet-goof-github\\dotNet-goof.csproj": {
+    "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/dotNet-goof.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swschmidt\\Snyk Workspace\\dotNet-goof-github\\dotNet-goof.csproj",
+        "projectUniqueName": "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/dotNet-goof.csproj",
         "projectName": "dotNet-goof",
-        "projectPath": "C:\\Users\\swschmidt\\Snyk Workspace\\dotNet-goof-github\\dotNet-goof.csproj",
-        "packagesPath": "C:\\Users\\swschmidt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swschmidt\\Snyk Workspace\\dotNet-goof-github\\obj\\",
+        "projectPath": "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/dotNet-goof.csproj",
+        "packagesPath": "/Users/harrykimpel/.nuget/packages/",
+        "outputPath": "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\swschmidt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/harrykimpel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
-            "targetAlias": "netcoreapp2.2",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,18 +35,20 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "Halibut": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[4.4.4, )"
             },
             "System.Management.Automation": {
               "target": "Package",
               "version": "[6.1.0, )"
+            },
+            "UmbracoForms": {
+              "target": "Package",
+              "version": "[8.7.0, )"
             }
           },
           "imports": [
@@ -60,7 +61,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
