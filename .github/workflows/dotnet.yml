@@ -30,6 +30,8 @@ jobs:
       with:
         # Branch where the Semantic Release will occur.
         releaseBranch: master
+      env:
+        GITHUB_TOKEN: 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
     - name: driftctl-action
       # You may pin to the exact commit or the version.
       # uses: snyk/driftctl-action@bc3f70f444b1bda780ebe6fc277bac0a639f4d49
