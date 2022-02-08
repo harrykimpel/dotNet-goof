@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.Management.Automation" Version="6.1.0" />
+    <PackageReference Include="Halibut" Version="4.4.4" />
   </ItemGroup>
 
 </Project>
