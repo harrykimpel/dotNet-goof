@@ -34,3 +34,5 @@ jobs:
         #args: # optional
         # Output a snyk.json file with results if running the test command
         #json: # optional
+      env:
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
