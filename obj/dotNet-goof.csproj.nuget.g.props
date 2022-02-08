@@ -14,6 +14,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)umbracocms/8.1.0/build/UmbracoCms.props" Condition="Exists('$(NuGetPackageRoot)umbracocms/8.1.0/build/UmbracoCms.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app/2.2.0/build/netcoreapp2.2/Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app/2.2.0/build/netcoreapp2.2/Microsoft.NETCore.App.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgUmbracoCms Condition=" '$(PkgUmbracoCms)' == '' ">/Users/harrykimpel/.nuget/packages/umbracocms/8.1.0</PkgUmbracoCms>

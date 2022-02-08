@@ -9,3 +9,16 @@
 /Users/pstember/Git/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.AssemblyInfo.cs
 /Users/pstember/Git/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.dll
 /Users/pstember/Git/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.pdb
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/bin/Debug/netcoreapp2.2/dotNet-goof.deps.json
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/bin/Debug/netcoreapp2.2/dotNet-goof.runtimeconfig.json
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/bin/Debug/netcoreapp2.2/dotNet-goof.runtimeconfig.dev.json
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/bin/Debug/netcoreapp2.2/dotNet-goof.dll
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/bin/Debug/netcoreapp2.2/dotNet-goof.pdb
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.csproj.AssemblyReference.cache
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.AssemblyInfoInputs.cache
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.AssemblyInfo.cs
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.csproj.CoreCompileInputs.cache
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.dll
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.pdb
+/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/obj/Debug/netcoreapp2.2/dotNet-goof.genruntimeconfig.cache
