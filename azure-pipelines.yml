@@ -27,6 +27,6 @@ steps:
 - script: snyk test || true
   env:
     SNYK_TOKEN: $(SNYK_TOKEN)
-- script: snyk monitor --org=9813a9b3-6a54-4c33-bff8-c1cb9c12b7fe --project-name=dotNet-goof-azure-pipelines
+- script: snyk monitor --org=${{ secrets.SNYK_ORG_ID }} --project-name=dotNet-goof-azure-pipelines
   env:
     SNYK_TOKEN: $(SNYK_TOKEN)    
