@@ -38,11 +38,11 @@ jobs:
       continue-on-error: true # To make sure that SARIF upload gets called
       with:
         # Which Snyk command to run, defaults to test
-        command: test
+        command: code
         # Additional arguments to pass to Snyk
         # Output a snyk.json file with results if running the test command
         #json: # optional
-        args: --code --sarif-file-output=snyk.sarif
+        args: --sarif-file-output=snyk.sarif
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     - name: Upload result to GitHub Code Scanning
