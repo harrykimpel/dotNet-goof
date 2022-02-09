@@ -40,10 +40,9 @@ jobs:
         # Which Snyk command to run, defaults to test
         command: test
         # Additional arguments to pass to Snyk
-        #args: # optional
         # Output a snyk.json file with results if running the test command
         #json: # optional
-        args: --sarif-file-output=snyk.sarif
+        args: --code --iac --sarif-file-output=snyk.sarif
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     - name: Upload result to GitHub Code Scanning
