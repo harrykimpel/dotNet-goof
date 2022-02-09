@@ -9,8 +9,6 @@ namespace dotNet_goof
         {
             Console.WriteLine("Hello World!");
         }
-
-
     }
 
 }
