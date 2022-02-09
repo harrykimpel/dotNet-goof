@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: snyk/actions/setup@master
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
@@ -31,18 +32,22 @@ jobs:
     #  with:
     #    # The version of driftctl to install.
     #    version: latest
-    - name: Snyk
-      # You may pin to the exact commit or the version.
-      # uses: snyk/actions@7fad562681122205233d1242c3bb39598c5393da
-      uses: snyk/actions@0.3.0
-      continue-on-error: true # To make sure that SARIF upload gets called
-      with:
-        # Which Snyk command to run, defaults to test
-        command: code
-        # Additional arguments to pass to Snyk
-        # Output a snyk.json file with results if running the test command
-        #json: # optional
-        args: --sarif-file-output=snyk.sarif
+    #- name: Snyk
+      ## You may pin to the exact commit or the version.
+      ## uses: snyk/actions@7fad562681122205233d1242c3bb39598c5393da
+      #uses: snyk/actions@0.3.0
+      #continue-on-error: true # To make sure that SARIF upload gets called
+      #with:
+      #  # Which Snyk command to run, defaults to test
+      #  command: code
+      #  # Additional arguments to pass to Snyk
+      #  # Output a snyk.json file with results if running the test command
+      #  #json: # optional
+      #  args: --sarif-file-output=snyk.sarif
+      #env:
+      #  SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+    - name: Snyk monitor
+      run: snyk code
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     - name: Upload result to GitHub Code Scanning
