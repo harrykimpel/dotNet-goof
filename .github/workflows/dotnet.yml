@@ -50,7 +50,7 @@ jobs:
       #env:
       #  SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     - name: Snyk monitor
-      run: snyk code
+      run: snyk code test --sarif-file-output=snyk.sarif
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     - name: Upload result to GitHub Code Scanning
