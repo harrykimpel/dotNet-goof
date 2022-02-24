@@ -10,6 +10,7 @@
     <PackageReference Include="System.Management.Automation" Version="6.1.0" />
     <PackageReference Include="Halibut" Version="4.4.4" />
     <PackageReference Include="UmbracoForms" Version="8.7.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="4.6.0" />
   </ItemGroup>
 
 </Project>

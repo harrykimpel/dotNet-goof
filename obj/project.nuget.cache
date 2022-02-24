@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qsye98UsBEbxpWmLYgsZMfqfa8N5gEiHR0xsjTHP+sfgl9RlAYYsVYe6uHi/c7BJuJxYVaKmHZaVuWQXXKyT2Q==",
+  "dgSpecHash": "A+YUOIdPYQHC/k6ay8RquIY9fn/8lK9SYyDRwIEFhP2X+giM61u2ScsBGyoBGjyWRjADZ5tNorE15fApXRc/6g==",
   "success": true,
   "projectFilePath": "/Users/harrykimpel/Projects/demo/dotnet/dotNet-goof/dotNet-goof.csproj",
   "expectedPackageFiles": [
@@ -99,6 +99,7 @@
     "/Users/harrykimpel/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/harrykimpel/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "/Users/harrykimpel/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "/Users/harrykimpel/.nuget/packages/system.text.encodings.web/4.6.0/system.text.encodings.web.4.6.0.nupkg.sha512",
     "/Users/harrykimpel/.nuget/packages/system.text.regularexpressions/4.3.0/system.text.regularexpressions.4.3.0.nupkg.sha512",
     "/Users/harrykimpel/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/harrykimpel/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
