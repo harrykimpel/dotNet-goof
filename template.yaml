@@ -1,0 +1,30 @@
+$schema: "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#"
+contentVersion: 1.0.0.0
+parameters:
+  functionAppName1:
+    type: string
+    metadata:
+      description: Name of the Function App.
+resources:
+  - apiVersion: "2015-08-01"
+    type: Microsoft.Web/sites
+    name: "myFunction"
+    location: "East US"
+    kind: "functionapp"
+    properties:
+      enabled": true
+      hostNameSslStates":
+        name: "myFunction.azurewebsites.net"
+        sslState: "Disabled"
+        hostType: "Standard"
+      ftpsState: "AllAllowed"
+      reserved": false,
+      isXenon": false,
+      hyperV": false,
+      siteConfig":
+        numberOfWorkers: 1
+        acrUseManagedIdentityCreds: false
+        alwaysOn: false
+        http20Enabled: false
+        functionAppScaleLimit: 1
+        minimumElasticInstanceCount: 1
